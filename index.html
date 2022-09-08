@@ -58,15 +58,15 @@
       function conselho() {
         if (idade >= 18) {
           if (imc < 17)
-            msg = `Seu IMC é ${calculaIMC()} e está muito abaixo, busque um nutricionista com urgência`;
+            msg = `Seu IMC está muito abaixo, busque um nutricionista com urgência`;
           else if (imc >= 17 && imc <= 18.49)
-            msg = `Seu IMC é ${calculaIMC()} e está na faixa saudável, se mantenha com bons hábitos`;
+            msg = `Seu IMC está na faixa saudável, se mantenha com bons hábitos`;
           else if (imc >= 18.5 && imc <= 24.99)
-            msg = `Seu IMC é ${calculaIMC()} e está um pouco acima do recomendado, fique atento com sua saúde.`;
+            msg = `Seu IMC está um pouco acima do recomendado, fique atento com sua saúde.`;
           else if (imc >= 30 && imc <= 34.99)
-            msg = `Seu IMC é ${calculaIMC()} e é classificado como Obesidade I, busque um nutricionista`;
+            msg = `Seu IMC é classificado como Obesidade I, busque um nutricionista`;
           else if (imc >= 35 && imc <= 39.99)
-            msg = `Seu IMC é ${calculaIMC()} e é classificado como Obesidade II, busque um nutricionista com urgência`;
+            msg = `Seu IMC é classificado como Obesidade II, busque um nutricionista com urgência`;
         } else {
           if (imc < 17)
             msg = `Seu IMC é ${calculaIMC()} e está muito abaixo, informe a um responsável para encaminhar-lhe a um nutricionista com urgência`;
